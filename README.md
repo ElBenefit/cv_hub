@@ -19,7 +19,12 @@ No duplicated resumes. No platform lock-in. No visual builders.
 
 Just data → build → deploy.
 
+
 Treat your career like a system.
+
+## Preview
+
+![CV Hub Preview](docs/repo-assets/preview_main.jpeg)
 
 🌐 **Live demo:** https://keegooroomie.github.io/cv_hub/
 
