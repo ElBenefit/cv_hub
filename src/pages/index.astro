@@ -28,6 +28,19 @@ const rawSkills = Array.isArray(data?.skills) ? data.skills : [];
 const experience = Array.isArray(data?.experience) ? data.experience : [];
 const achievements = Array.isArray(data?.achievements) ? data.achievements : [];
 
+const normalizeBullet = (v) => {
+  if (typeof v === 'string') return v;
+  if (v && typeof v === 'object') {
+    // Common patterns: { text: "..." } or { label: "...", value: "..." }
+    if (typeof v.text === 'string') return v.text;
+    if (typeof v.label === 'string' && typeof v.value === 'string') return `${v.label}: ${v.value}`;
+    // Fallback: join key/value pairs
+    const parts = Object.entries(v).map(([k, val]) => `${k}: ${String(val)}`);
+    return parts.join(' · ');
+  }
+  return String(v);
+};
+
 const skillGroups = rawSkills
   .map((s) =>
     typeof s === 'string'
@@ -139,7 +152,7 @@ const txtUrl = `${dlBase}/resume_${dlLang}.txt`;
 
               {Array.isArray(e.description) && e.description.length > 0 && (
                 <ul class="list">
-                  {e.description.map((d) => <li>{d}</li>)}
+                  {e.description.map((d) => <li>{normalizeBullet(d)}</li>)}
                 </ul>
               )}
             </article>
