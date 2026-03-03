@@ -7,7 +7,17 @@
 //  @spartan121
 //
 import '../styles/global.css';
-const { title = 'CV Hub', lang = 'en' } = Astro.props;
+const { title = 'CV Hub', lang = 'en', section = 'main' } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const homeHref = `${base}/${lang === 'ru' ? 'ru' : ''}`;
+const showcaseHref = `${base}/showcase${lang === 'ru' ? '/ru' : ''}`;
+
+const otherLang = lang === 'ru' ? 'en' : 'ru';
+const switchHref =
+  section === 'showcase'
+    ? `${base}/showcase${otherLang === 'ru' ? '/ru' : ''}`
+    : `${base}/${otherLang === 'ru' ? 'ru' : ''}`;
 ---
 
 <!doctype html>
@@ -20,14 +30,14 @@ const { title = 'CV Hub', lang = 'en' } = Astro.props;
   <body>
     <header class="header">
       <div class="container header__row">
-        <a class="brand" href={`./?lang=${lang}`}>CV Hub</a>
+        <a class="brand" href={homeHref}>CV Hub</a>
         <nav class="nav">
-          <a href={`./?lang=${lang}`}>{lang === 'ru' ? 'Главная' : 'Home'}</a>
-          <a href={`./showcase?lang=${lang}`}>{lang === 'ru' ? 'Шоукейс' : 'Showcase'}</a>
+          <a href={homeHref}>{lang === 'ru' ? 'Главная' : 'Home'}</a>
+          <a href={showcaseHref}>{lang === 'ru' ? 'Шоукейс' : 'Showcase'}</a>
         </nav>
         <div class="lang">
-          <a class={lang === 'en' ? 'active' : ''} href={`${Astro.url.pathname}?lang=en`}>EN</a>
-          <a class={lang === 'ru' ? 'active' : ''} href={`${Astro.url.pathname}?lang=ru`}>RU</a>
+          <a class={lang === 'en' ? 'active' : ''} href={switchHref.replace(/\/ru$/, '')}>EN</a>
+          <a class={lang === 'ru' ? 'active' : ''} href={switchHref.endsWith('/ru') ? switchHref : `${switchHref}/ru`}>RU</a>
         </div>
       </div>
     </header>
