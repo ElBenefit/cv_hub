@@ -1,16 +1,14 @@
 projects:
   - slug: cv-hub
+    order: 1
     name: CV Hub
     role: Author / Engineer
     year: "2026"
     description: Data-driven personal CV platform built with Astro and YAML as a single source of truth. Replaces static resumes and no-code builders with a version-controlled, extensible solution.
-
     theme: blue
     featured: true
-
     platforms: [Web, GitHub Pages]
-    tags: [Astro, YAML, Automation, CI/CD]
-
+    tags: [astro, yaml, automation, ci-cd, open-source]
     metrics:
       - label: Open Source
         value: "Free to everyone"
@@ -18,10 +16,580 @@ projects:
         value: "GitHub Pages"
       - label: You Are Here
         value: "Live Service"
-
     stack: [Astro, TypeScript, YAML, GitHub Actions, CSS]
-
     links:
       - label: Repository
         url: https://github.com/KeeGooRoomiE/cv_hub
         type: repo
+
+  - slug: steam-deck-keyboard
+    order: 2
+    name: Steam Deck Custom Keyboard
+    role: Creator / Maintainer
+    year: "2025"
+    description: Customizable Steam Deck keyboard theme template with preset system and runtime color configuration via CSS Loader UI.
+    theme: slate
+    featured: true
+    platforms: [SteamOS, Linux]
+    tags: [open-source, steam-deck, ui, theming, css]
+    stack: [CSS, JSON, Decky Loader]
+    metrics:
+      - label: Installs
+        value: "16K+"
+      - label: DeckThemes Rating
+        value: "59⭐"
+    links:
+      - label: Repository
+        url: https://github.com/KeeGooRoomiE/Steam-Deck-Keyboard-CSS-Loader-Template
+        type: repo
+      - label: DeckThemes
+        url: https://deckthemes.com/themes/view?themeId=0c5d6c86-ef3e-4af7-a041-34731a51fe7f
+
+  - slug: sand-balls
+    order: 3
+    name: Sand Balls
+    role: Level & Systems Designer
+    year: "2020"
+    description: Core gameplay systems, balancing and performance optimization for a top-chart arcade mobile game with massive global audience.
+    theme: amber
+    featured: true
+    platforms: [iOS, Android]
+    tags: [unity, mobile, gameplay, production, casual]
+    stack: [Unity, C#, Mobile Optimization]
+    metrics:
+      - label: Downloads
+        value: "100M+"
+      - label: Store Rank
+        value: "Top-3 Arcade"
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/sand-balls/id1483631996
+        type: store
+      - label: Google Play
+        url: https://play.google.com/store/apps/details?id=com.water.balls
+        type: store
+    media:
+      - type: image
+        src: /media/projects/sand-balls/cover.png
+        alt: "Sand Balls gameplay screenshot"
+        featured: true
+
+  - slug: bhop-jump
+    order: 4
+    name: Bhop Jump
+    role: Gameplay & Multiplayer Engineer
+    year: "2017"
+    description: Competitive mobile parkour game inspired by bhop mechanics, featuring skill-based movement and real-time multiplayer modes.
+    theme: amber
+    platforms: [iOS, Android]
+    tags: [unity, mobile, multiplayer, arcade]
+    stack: [Unity, C#]
+    metrics:
+      - label: Downloads
+        value: "100K+"
+      - label: Revenue
+        value: "$160K+ (Q1 2017)"
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/bhop-jump/id1227774947
+        type: store
+      - label: Google Play
+        url: https://play.google.com/store/apps/details?id=com.dgs.bhop
+        type: store
+    media:
+      - type: image
+        src: /media/projects/bhop-jump/01.jpg
+        alt: "Bhop Jump gameplay screenshot"
+        featured: true
+
+  - slug: lana-and-ronen
+    order: 5
+    name: Lana & Ronen
+    role: Gameplay Developer & Level Designer
+    year: "2019"
+    description: Match-3 mobile game with over 200 handcrafted levels, dynamic animated backgrounds and progression-based gameplay systems. Made for YouTuber Lana Meinart.
+    theme: amber
+    platforms: [Android, iOS]
+    tags: [unity, mobile, casual, level-design, match3]
+    stack: [Unity, Firebase]
+    metrics:
+      - label: Downloads
+        value: "1M+"
+      - label: Levels
+        value: "200+"
+    media:
+      - type: image
+        src: /media/projects/lana-and-ronen/cover.png
+        alt: "Lana & Ronen gameplay screenshot"
+        featured: true
+    links:
+      - label: APKPure
+        url: https://apkpure.com/lana-ronen/com.mkmx.lanam3
+        type: store
+
+  - slug: wings-gms-online
+    order: 6
+    name: Wings GMS Online
+    role: Gameplay & Multiplayer Systems Engineer
+    year: "2022"
+    description: Real-time multiplayer aerial combat prototype with fake-3D perspective, orbital AI behavior and Node.js + Socket.io backend architecture.
+    theme: amber
+    platforms: [Web]
+    tags: [gamemaker, multiplayer, realtime, prototype, open-source]
+    stack: [GameMaker, Node.js, Socket.io]
+    metrics:
+      - label: AI System
+        value: "Orbital AI"
+      - label: Camera
+        value: "Dynamic Camera"
+      - label: Lighting
+        value: "Day/Night"
+    links:
+      - label: Repository
+        url: https://github.com/KeeGooRoomiE/WingsGMSOnline-MINDPLAYS-
+        type: repo
+    media:
+      - type: image
+        src: /media/projects/wings/cover.gif
+        alt: "Wings gameplay screenshot"
+        featured: true
+
+  - slug: apple-watch-diceroll
+    order: 7
+    name: Apple Watch DiceRoll
+    role: Swift / WatchOS Developer
+    year: "2024"
+    description: Minimalistic Apple Watch dice application built with SwiftUI, focused on fast interaction and clean watch-first UX.
+    theme: slate
+    platforms: [watchOS]
+    tags: [swift, watchos, open-source, utility]
+    stack: [Swift, SwiftUI]
+    metrics:
+      - label: Platform
+        value: "watchOS"
+      - label: Status
+        value: "Open Source"
+    links:
+      - label: Repository
+        url: https://github.com/KeeGooRoomiE/AppleWatch_DiceRoll
+        type: repo
+    media:
+      - type: image
+        src: /media/projects/diceroll/cover.png
+        alt: "Apple Watch DiceRoll interface"
+        featured: true
+
+  - slug: afc-capital
+    order: 8
+    name: "AFC Capital Partners"
+    role: Frontend Developer
+    year: "2023"
+    description: Corporate website for AFC Capital Partners, an infrastructure investment platform focused on sustainable capital mobilisation and ESG-driven projects across Africa.
+    theme: slate
+    platforms: [Web]
+    tags: [frontend, enterprise, finance, angular]
+    stack: [Angular, TypeScript, Tailwind CSS]
+    metrics:
+      - label: Sector
+        value: "Infrastructure Finance"
+      - label: Region
+        value: "Pan-African"
+    links:
+      - label: Website
+        url: https://www.afccapital.org/
+        type: demo
+      - label: Case Study
+        url: https://aznresearch.com/en/work/afc-capital
+        type: article
+
+  - slug: africa-finance-corporation
+    order: 9
+    name: "Africa Finance Corporation"
+    role: Frontend Developer
+    year: "2023"
+    description: Frontend implementation for the Africa Finance Corporation website, a pan-African multilateral financial institution driving large-scale infrastructure projects across energy, transport and industrial sectors.
+    theme: slate
+    platforms: [Web]
+    tags: [frontend, enterprise, govtech, finance, angular]
+    stack: [Angular, TypeScript, Tailwind CSS]
+    metrics:
+      - label: AUM
+        value: "$10B+ portfolio"
+      - label: Members
+        value: "47 countries"
+    links:
+      - label: Website
+        url: https://www.africafc.org/
+        type: demo
+      - label: Case Study
+        url: https://aznresearch.com/en/work/afc
+        type: article
+
+  - slug: amaka-studio
+    order: 10
+    name: "Amaka Studio"
+    role: Frontend Developer
+    year: "2023"
+    description: Corporate website for a creative digital studio connecting brands with design and content teams. Focused on responsive UI architecture and performance-driven frontend implementation.
+    theme: slate
+    platforms: [Web]
+    tags: [frontend, corporate, web, angular]
+    stack: [Angular, TypeScript, Tailwind CSS]
+    metrics:
+      - label: Type
+        value: "Creative Agency"
+      - label: Stack
+        value: "Angular + Tailwind"
+    links:
+      - label: Website
+        url: https://amaka.studio/
+        type: demo
+
+  - slug: thelo-db
+    order: 11
+    name: "Thelo DB Engineering"
+    role: Frontend Developer
+    year: "2023"
+    description: Corporate engineering and consulting website for DB Engineering Consulting, supporting infrastructure and railway projects with structured enterprise UI components.
+    theme: slate
+    platforms: [Web]
+    tags: [frontend, enterprise, infrastructure, angular]
+    stack: [Angular, TypeScript, Tailwind CSS]
+    metrics:
+      - label: Sector
+        value: "Railway Engineering"
+      - label: Scope
+        value: "Enterprise"
+    links:
+      - label: Website
+        url: https://db-engineering-consulting.com/en/
+        type: demo
+
+  - slug: thelo-rs
+    order: 12
+    name: "Thelo Group"
+    role: Frontend Developer
+    year: "2023"
+    description: Corporate website for Thelo Group, an African transport and logistics infrastructure company operating across rail, port and corridor development projects.
+    theme: slate
+    platforms: [Web]
+    tags: [frontend, infrastructure, enterprise, angular]
+    stack: [Angular, TypeScript, Tailwind CSS]
+    metrics:
+      - label: Sector
+        value: "Transport & Logistics"
+      - label: Region
+        value: "Africa"
+    links:
+      - label: Website
+        url: https://thelo.africa/
+        type: demo
+
+  - slug: timberman-mp
+    order: 13
+    name: Timberman Multiplayer
+    role: Gameplay & Network Engineer
+    year: "2022"
+    description: Two-player real-time Timberman-style arcade game built in GameMaker with custom Node.js + Socket.io multiplayer backend.
+    theme: amber
+    platforms: [Web, Windows]
+    tags: [gamemaker, multiplayer, arcade, open-source]
+    stack: [GameMaker, Node.js, Socket.io]
+    metrics:
+      - label: Players
+        value: "2P Online"
+      - label: Status
+        value: "Open Source"
+    links:
+      - label: Repository
+        url: https://github.com/KeeGooRoomiE/timbermanMPGMS
+        type: repo
+    media:
+      - type: image
+        src: /media/projects/timberman/cover.gif
+        alt: "Timberman multiplayer gameplay"
+        featured: true
+
+  - slug: gunfire
+    order: 14
+    name: GunFire
+    role: Gameplay Engineer
+    year: "2021"
+    description: Fast-paced arcade shooter prototype focused on weapon systems, enemy waves and responsive combat feel.
+    theme: amber
+    platforms: [Windows, Android, iOS]
+    tags: [gamemaker, shooter, arcade, multiplayer]
+    stack: [GameMaker, Node.js]
+    metrics:
+      - label: Multiplayer
+        value: "Online PvP"
+      - label: Tools
+        value: "Level Editor"
+    links:
+      - label: Trashbox
+        url: https://trashbox.ru/link/cs2d-for-android-gunfire
+        type: store
+    media:
+      - type: image
+        src: /media/projects/gunfire/cover.jpg
+        alt: "GunFire gameplay screenshot"
+        featured: true
+
+  - slug: flower-king
+    order: 15
+    name: "Flower King: Collect and Grow"
+    role: Level Designer
+    year: "2020"
+    description: Casual match-3 puzzle game with handcrafted levels and relaxing visual progression built in Unity.
+    theme: amber
+    platforms: [Android, iOS]
+    tags: [unity, mobile, casual, match3, level-design]
+    stack: [Unity, C#]
+    metrics:
+      - label: Downloads
+        value: "50K+"
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/flower-king-collect-and-grow/id1519456312
+        type: store
+      - label: APKPure
+        url: https://apkpure.com/flower-king-collect-and-grow/com.flower.king.game
+        type: store
+    media:
+      - type: image
+        src: /media/projects/flower-king/cover.png
+        alt: "Flower King: Collect and Grow gameplay"
+        featured: true
+
+  - slug: helens-quiz
+    order: 16
+    name: Helens Quiz
+    role: Gameplay & UI Designer
+    year: "2019"
+    description: Match-3 puzzle game with over 300 crafted levels, dynamic backgrounds and level progression systems built in Unity.
+    theme: amber
+    platforms: [Android, iOS]
+    tags: [unity, mobile, casual, match3, level-design]
+    stack: [Unity, C#]
+    metrics:
+      - label: Downloads
+        value: "50K+"
+      - label: Levels
+        value: "300+"
+    links:
+      - label: APKPure
+        url: https://apkpure.com/helen-s-quiz/com.mkmx.helenq
+        type: store
+    media:
+      - type: image
+        src: /media/projects/helens-quiz/cover.jpg
+        alt: "Helens Quiz gameplay screenshot"
+        featured: true
+
+  - slug: westland
+    order: 17
+    name: Westland
+    role: Gameplay Developer
+    year: "2019"
+    description: Isometric pixel-art top-down zombie shooter set in a brutal Wild West world, featuring heavy gore and fast-paced combat arenas.
+    theme: amber
+    platforms: [Windows]
+    tags: [gamemaker, shooter, pixel-art, prototype]
+    stack: [GameMaker]
+    metrics:
+      - label: Type
+        value: "Personal Project"
+      - label: Status
+        value: "Prototype"
+    media:
+      - type: image
+        src: /media/projects/westland/cover.jpg
+        alt: "Westland gameplay screenshot"
+        featured: true
+
+  - slug: kalina-malina-delivery
+    order: 18
+    name: "Калина‑Малина: доставка еды"
+    role: Mobile App Developer
+    year: "2018"
+    description: Mobile food and grocery delivery app with ordering, product catalog and loyalty system built in Unity.
+    theme: slate
+    platforms: [Android, iOS]
+    tags: [unity, mobile, ecommerce, delivery]
+    stack: [Unity, C#]
+    metrics:
+      - label: Downloads
+        value: "100K+"
+    links:
+      - label: App Store
+        url: https://apps.apple.com/app/калина-малина-доставка-еды/id1597124884
+        type: store
+      - label: Google Play
+        url: https://play.google.com/store/apps/details?id=com.getmeback.kalinamalina
+        type: store
+    media:
+      - type: image
+        src: /media/projects/kalina-malina/cover.png
+        alt: "Калина‑Малина delivery app interface"
+        featured: true
+
+  - slug: transport-railroad-crossing
+    order: 19
+    name: Transport Railroad Crossing
+    role: Gameplay Designer & Developer
+    year: "2018"
+    description: Crossy Road–style arcade game featuring dynamic traffic logic and railway crossing systems with train-triggered vehicle stopping behavior.
+    theme: amber
+    platforms: [Android]
+    tags: [gamemaker, mobile, arcade, casual]
+    stack: [GameMaker]
+    metrics:
+      - label: Type
+        value: "Personal Project"
+      - label: Status
+        value: "Delisted"
+    media:
+      - type: image
+        src: /media/projects/transport-railroad-crossing/cover.jpeg
+        alt: "Transport Railroad Crossing gameplay"
+        featured: true
+
+  - slug: park-them-all
+    order: 20
+    name: Park Them All
+    role: Gameplay & Level Designer
+    year: "2020"
+    description: Hyper-casual parking simulator where players place cars into correct spots under increasing level complexity.
+    theme: amber
+    platforms: [Android]
+    tags: [unity, mobile, hyper-casual, simulation]
+    stack: [Unity, C#]
+    metrics:
+      - label: Type
+        value: "Personal Project"
+      - label: Status
+        value: "Delisted"
+    media:
+      - type: image
+        src: /media/projects/park-them-all/cover.png
+        alt: "Park Them All gameplay"
+        featured: true
+
+  - slug: candy-merge
+    order: 21
+    name: Candy Merge
+    role: Gameplay & Level Designer
+    year: "2020"
+    description: Hyper-casual match-3 game combined with 2048-style merge mechanics and progressive puzzle difficulty.
+    theme: amber
+    platforms: [Android]
+    tags: [unity, mobile, hyper-casual, casual, match3]
+    stack: [Unity, C#]
+    links:
+      - label: Google Play
+        url: https://play.google.com/store/search?q=Candy%20Merge&c=apps
+        type: store
+    media:
+      - type: image
+        src: /media/projects/candy-merge/cover.png
+        alt: "Candy Merge gameplay"
+        featured: true
+
+  - slug: dodge-agent
+    order: 22
+    name: Dodge Agent
+    role: Gameplay & Level Designer
+    year: "2021"
+    description: Hyper-casual timing game where a ninja jumps between platforms while dodging laser traps.
+    theme: amber
+    platforms: [Android]
+    tags: [unity, mobile, hyper-casual, action]
+    stack: [Unity, C#]
+    links:
+      - label: Google Play
+        url: https://play.google.com/store/apps/details?id=com.weave.dodgeagent
+        type: store
+    media:
+      - type: image
+        src: /media/projects/dodge-agent/cover.png
+        alt: "Dodge Agent gameplay"
+        featured: true
+
+  - slug: personality-shift
+    order: 23
+    name: Personality Shift
+    role: Gameplay & Level Designer
+    year: "2021"
+    description: Hyper-casual runner for a female audience featuring outfit-based transformation segments inspired by shape-shifting mechanics.
+    theme: amber
+    platforms: [Android]
+    tags: [unity, mobile, hyper-casual, runner]
+    stack: [Unity, C#]
+    metrics:
+      - label: Type
+        value: "Personal Project"
+      - label: Status
+        value: "Delisted"
+    media:
+      - type: image
+        src: /media/projects/personality-shift/cover.png
+        alt: "Personality Shift gameplay"
+        featured: true
+
+  - slug: hole-run
+    order: 24
+    name: Hole Run
+    role: Gameplay & Level Designer
+    year: "2021"
+    description: Hyper-casual runner where a moving hole collects falling blocks and later builds structures from gathered pieces.
+    theme: amber
+    platforms: [Android]
+    tags: [unity, mobile, hyper-casual, runner]
+    stack: [Unity, C#]
+    links:
+      - label: Google Play
+        url: https://play.google.com/store/apps/details?id=com.sketchteam.ColorBallSketch
+        type: store
+    media:
+      - type: image
+        src: /media/projects/hole-run/cover.png
+        alt: "Hole Run gameplay"
+        featured: true
+
+  - slug: pop-them-all
+    order: 25
+    name: Pop Them All
+    role: Gameplay & Level Designer
+    year: "2021"
+    description: Hyper-casual pop-it style game where players clear tactile boards to unlock new patterns and visual sets.
+    theme: amber
+    platforms: [Android]
+    tags: [unity, mobile, hyper-casual, casual]
+    stack: [Unity, C#]
+    links:
+      - label: Google Play
+        url: https://play.google.com/store/apps/details?id=com.weaveGames.popthemall
+        type: store
+    media:
+      - type: image
+        src: /media/projects/pop-them-all/cover.png
+        alt: "Pop Them All gameplay"
+        featured: true
+
+  - slug: break-stack-tower
+    order: 26
+    name: "Break Stack Tower"
+    role: Gameplay & Level Designer
+    year: "2020"
+    description: Arcade hyper-casual tower breaking game with physics-based destruction mechanics and level progression.
+    theme: amber
+    platforms: [Android]
+    tags: [unity, mobile, hyper-casual, arcade]
+    stack: [Unity, C#]
+    metrics:
+      - label: Downloads
+        value: "50K+"
+    links:
+      - label: Google Play
+        url: https://play.google.com/store/apps/details?id=com.towerbreak.app
+        type: store
