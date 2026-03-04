@@ -30,7 +30,9 @@ const withBase = (p = '') => {
   // keep absolute URLs and data URIs untouched
   if (/^(https?:)?\/\//i.test(s) || s.startsWith('data:')) return s;
   const clean = s.replace(/^\/+/, '');
-  return `${import.meta.env.BASE_URL}${clean}`;
+  const base = String(import.meta.env.BASE_URL || '/');
+  const baseNorm = base.endsWith('/') ? base : `${base}/`;
+  return `${baseNorm}${clean}`;
 };
 
 const featuredMedia = media.find((m) => m.featured) ?? media[0] ?? null;
