@@ -32,7 +32,7 @@ changelog:
         text: "siteUrl resolved dynamically from GITHUB_REPOSITORY — forks work without config"
       - type: changed
         text: "Dropdown styles moved to global.css"
-      - type: docs
+      - type: added
         text: "README, ENGINEERING.md and INFO.md fully updated to reflect new architecture"
 
   - version: "1.3.0"
